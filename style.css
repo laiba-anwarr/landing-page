@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color: #000;
+    color:white;
+   
+}
+nav{
+    height:90px;
+    width:100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+nav h1{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+nav i{
+    margin-right: 10px;
+   
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+}
+#nav-part2 h5{
+font-size: 0.7rem;
+font-weight: 600;
+text-transform: capitalize;
+margin: 9px;
+
+}
+ .line{
+height:3px;
+width:90px;
+background-color: red;
+margin: 20px;
+}
+#nav-part2 > img{
+    height:140px;
+    width:160px;
+  
+   
+}
+#content{
+    height:calc(100% - 90px);
+    width:100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  
+}
+#left{
+    width:40%;
+    height:100vh;
+padding:110px 100px;
+}
+#left h1{
+    width:100%;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+#left h1 span{
+    color:red;
+}
+#left p{
+    width:90%;
+    padding: 20px 0;
+}
+#left button{
+    padding:8px 15px;
+    background-color:red;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    color:white;
+    text-transform: capitalize;
+margin-top: 10px;
+border: none;
+
+}
+#left button i{
+    margin-right: 10px;
+}
+#center{
+    width:20%;
+    height: 100vh;
+   
+
+}
+
+#content > img{
+    position: absolute;
+    top:5%;
+    left: 47%;
+    transform: translate(-50%,0);
+height:450px;
+width: 180px;
+z-index: 99;
+}
+#center-content{
+    height: 68%;
+    width:100%;
+    background-color: green;
+    margin-top:40px;
+ border-top-left-radius: 1000px;
+ border-top-right-radius: 1000px;
+ background-image: url("./97b72ae04d123f10d2e0c13c8b2fd07a.jpg");
+ background-position: 20% 30%;
+ filter: blur(3px);
+}
+#right{
+    margin-left: 70px;
+    padding:240px 70px;
+    height: 100vh;
+    width: 40%;
+   
+    text-transform: capitalize;
+}
+#right h5{
+    font-size: 1.1rem;
+}
+.right-1 {
+    width:70%;
+    height:35px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+#right-2{
+    width:70%;
+    height:30px;
+
+}
+#right-2 p{
+    margin-top: 9px;
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
